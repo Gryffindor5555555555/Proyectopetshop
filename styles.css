@@ -1,0 +1,296 @@
+/* RESET */
+
+.logo
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img{
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%; 
+  object-fit: cover;
+
+  border: 3px solid white;
+}
+
+.logo h1{
+  color: white;
+  font-size: 28px;
+
+border-radius: 50%;
+}
+
+/* BODY */
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* HEADER */
+
+header{
+  background: #1f2937;
+
+  padding: 20px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+
+.logo h1{
+  color: white;
+}
+
+/* NAV */
+
+nav ul{
+  list-style: none;
+
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+nav ul li a:hover{
+  color: #fbbf24;
+}
+
+/* HERO */
+
+.hero{
+  height: 500px;
+
+  background-image: url("img/fondo.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* HERO TEXTO */
+
+.hero-texto{
+  background: rgba(0,0,0,0.5);
+
+  padding: 40px;
+
+  border-radius: 10px;
+
+  color: white;
+}
+
+.hero-texto h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-texto p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* BOTON */
+
+.btn{
+  background: #fbbf24;
+
+  color: black;
+
+  padding: 12px 25px;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+  font-weight: bold;
+}
+
+/* MAIN */
+
+main{
+  padding: 50px;
+}
+
+/* TITULOS */
+
+.titulo{
+  text-align: center;
+  margin-bottom: 40px;
+
+  font-size: 35px;
+}
+
+/* PRODUCTOS */
+
+.contenedor-productos{
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+
+/* CARD */
+
+.card{
+  background: white;
+
+  width: 300px;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  text-align: center;
+
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+
+/* IMAGEN */
+
+.card img{
+  width: 100%;
+  height: 250px;
+
+  object-fit: cover;
+}
+
+/* TEXTO CARD */
+
+.card h3{
+  margin: 15px 0;
+}
+
+.card p{
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* BOTON CARD */
+
+.card button{
+  margin-bottom: 20px;
+
+  background: #1f2937;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+/* CONTACTO */
+
+.contacto{
+  background: white;
+
+  padding: 50px;
+
+  margin-top: 60px;
+
+  border-radius: 10px;
+}
+
+/* TITULO CONTACTO */
+
+.contacto h2{
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  font-size: 35px;
+}
+
+/* FORM */
+
+form{
+  max-width: 600px;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* INPUTS */
+
+input,
+textarea{
+  padding: 15px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  font-size: 16px;
+}
+
+textarea{
+  height: 150px;
+
+  resize: none;
+}
+
+/* BOTON FORM */
+
+form button{
+  background: #1f2937;
+
+  color: white;
+
+  border: none;
+
+  padding: 15px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+/* FOOTER */
+
+footer{
+  background: #1f2937;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+
+  margin-top: 50px;
+}
